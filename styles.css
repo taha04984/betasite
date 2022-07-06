@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bgvid {
+    width: 100%;
+    position: fixed;
+    
+}
+
+.main-container {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    color: black;
+    align-items: center;
+    height: 100px;
+
+    position: sticky;
+    top: 0%;
+}
+
+.burger {
+    margin: 0 1.5rem;
+    display: none;
+}
+
+.burger div {
+    width: 3rem;
+    height: 0.2rem;
+    background-color: white;
+    margin: 0.5rem 0;
+    border-radius: 2rem;
+}
+
+.logo {
+    height: 5rem;
+}
+
+.logo-heading {
+    color: white;
+    font-size: 1rem;
+    margin: auto;
+
+    position: relative;
+    right: 15px;
+}
+
+.textarea {
+    display: flex;
+    margin: 0 0 0 5rem;
+    /* width: 25rem; */
+}
+
+.navlinks {
+    display: flex;
+    width: 100rem;
+    justify-content: right;
+    align-items: center;
+    height: 100px;
+    padding: 0 2rem 0 0;
+}
+
+.navlinks li {
+    list-style-type: none;
+}
+
+.navlinks a {
+    text-decoration: none;
+    padding: 20px 3rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.navlinks a:hover {
+    background-color: #ffb700;
+    color: black;
+    border-radius: 5rem;
+}
+
+.main-body {
+     height: 90vh;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     padding: 12rem 0;
+}
+
+.main-heading {
+    color: #ffb700;
+    font-size: 4rem;
+}
+
+.byline {
+    color: #ffb700;
+    margin: 1rem 0 3rem 0;
+    font-size: 1rem;
+}
+
+.btn1 {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 1rem 4rem;
+    font-weight: bold;
+    border-radius: 3rem;
+    margin: 0 5px;
+}
+
+.btn1:hover {
+    background-color: #ffb700;
+    color: black;
+}
+
+.intro {
+    background-color: black;
+    color: white;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo1 {
+    width: 30%;
+    margin: 0 5rem;
+}
+
+.introtxt {
+    width: 50%;
+    padding: 0 5rem;
+    font-size: 1.5rem;
+}
+
+.title {
+    margin: 1rem 0;
+}
+
+.details {
+    margin: 2rem 0;
+}
+
+.services {
+    height: auto;
+    display: flex;
+    margin: auto;
+    padding: 10rem;
+}
+
+.blogs, .ecommerce{
+    background-color: white;
+    color: black;
+    height: auto;
+    width: 45%;
+    margin: auto;
+    padding: 3rem 3rem 7rem 3rem;
+    border: 1px solid red;
+}
+
+.blogs img {
+    height: 5rem;
+}
+
+.imagediv {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.code-title {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.codingpara {
+    width: 50%;
+    font-weight: 900;
+}
+
+.more {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 5rem 0 0 0;
+    width: 100%;
+    border: 2.5px solid black;
+    text-align: center;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+/* .more:hover {
+    background-color: #ffb700;
+    border: 1px solid black;
+} */
+
+.ecommerce img {
+    height: 5rem;
+}
+
+.blogs:hover {
+    border-radius: 1rem;
+    background-color: #ffb700;
+}
+
+
+.ecommerce:hover {
+    border-radius: 1rem;
+    background-color: #ffb700;
+}
+
+.languages {
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem 0;
+}
+
+.javapng, .pythonpng, .cpppng {
+    width: 250px;
+    height: 250px;
+}
+
+.langimg {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 7rem 0 2.5rem 0;
+}
+
+.testimonials {
+    text-align: center;
+    color: white;
+    padding: 5rem 0;
+}
+
+.containerss {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.t1, .t2 {
+    background-color: rgb(189, 189, 189);
+    color: black;
+    margin: 5rem 0 0 0;
+    padding: 2rem 4rem;
+    width: 43%;
+    text-align: left;
+}
+
+.t1 p {
+    font-weight: bold;
+}
+
+.t2 p {
+    font-weight: bold;
+}
+
+.name {
+    display: block;
+    margin: 2rem 0 0 0;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.role {
+    display: block;
+    font-weight: 200;
+}
+
+.quotes {
+    font-size: 2rem;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer {
+    padding: 1rem 0 0 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.imageslinks img {
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem 0.1rem;
+}
+
+
+.shift {
+    transform: translateX(0%);
+}
+
+
+
+@media only screen and (max-width: 768px ) {
+
+    .navlinks {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content: left;
+        align-items: left;
+        height: 90vh;
+        padding: 0 0 0 0;
+        position: absolute;
+        left: 0%;
+        top: 100px;
+        background-color: black;
+
+        transform: translateX(-100%);
+    }
+
+    .shift {
+        transform: translateX(0%);
+        transition: ease-in 0.5s;
+    }
+
+    .navlinks li {
+        width: 100%;
+        text-align: left;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .navlinks li a {
+        text-decoration: none;
+        width: 100%;
+        padding: 1rem 1rem;
+        font-size: 1rem;
+        font-weight: bold;
+        display: block;
+        margin: 0;
+
+        text-align: left;
+        border-top: 0.1rem solid black;
+        border-bottom: 0.1rem solid black;
+        background: #ffb700;
+        color: black;
+    }
+    
+    .btn1 {
+        display: block;
+        width: 75%;
+        margin: 2rem auto;
+    }    
+   
+    .textarea {
+        margin: 0;
+    }
+
+    .burger {
+        display: initial;
+    }
+
+    .logo1 {
+        display: none;
+    }
+
+    .introtxt {
+        width: 100%;
+        height: auto;
+        font-size: 1.5rem;
+        padding: 0 2rem;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 0;
+    }
+
+    .blogs, .ecommerce {
+        width: 80%;
+        margin: 1rem auto;
+    }
+
+    .codingpara {
+        width: 100%;
+    }
+
+    .languages h1 {
+        font-size: 1rem;
+    }
+
+    .langimg img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .containerss{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .t1, .t2 {
+        width: 90%;
+        margin: 3rem auto;
+    }
+
+    .socials {
+        font-size: 1.5rem;
+    }
+
+
+}
+
+
